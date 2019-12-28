@@ -27,7 +27,7 @@ function viewCart() {
       return `In your cart, you have ${getCart()[0]["itemName"]} at $${getCart()[0]["itemPrice"]}, and ${getCart()[1]["itemName"]} at $${getCart()[1]["itemPrice"]}.`
     } else {
     var myString = "In your cart, you have "
-    for (var i = 0; i < getCart().length - 1; i++) {
+    for (let i = 0; i < getCart().length - 1; i++) {
       myString = myString + `${getCart()[i]["itemName"]} at $${getCart()[i]["itemPrice"]}, `;
       // In your cart, you have itemName x at itemPrice y, +
     }
