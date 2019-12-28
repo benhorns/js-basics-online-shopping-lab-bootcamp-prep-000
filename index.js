@@ -52,9 +52,9 @@ function removeFromCart(item) {
     getCart().splice (i, 1)
 }
 }
-//   else {
-//   return "That item is not in your cart."
-// }
+   else {
+   return "That item is not in your cart."
+ }
 }
 
 function placeOrder(cardNumber) {
