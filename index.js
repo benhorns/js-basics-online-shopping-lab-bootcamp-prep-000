@@ -47,7 +47,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  delete cart.item;
+  delete getCart()[item];
   return cart;
 }
 
