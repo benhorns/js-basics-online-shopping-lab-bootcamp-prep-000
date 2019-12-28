@@ -30,7 +30,6 @@ function viewCart() {
     for (var i = 0; i < getCart().length - 1; i++) {
       myString = myString + `${getCart()[i]["itemName"]} at $${getCart()[i]["itemPrice"]}, `;
       // In your cart, you have itemName x at itemPrice y, +
-      console.log (myString)
     }
     return myString + `and ${getCart()[getCart().length - 1].itemName} at $${getCart()[getCart().length - 1].itemPrice}.`
   }
