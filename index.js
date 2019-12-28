@@ -47,8 +47,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  delete getCart()[item];
-  getCart()
+  getCart()[].splice  
 
 }
 
