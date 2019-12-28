@@ -49,7 +49,7 @@ function removeFromCart(item) {
   // write your code here
   for (i = 0; i < getCart().length; i++){
   if (getCart()[i] = item){
-    getCart().splice (i, item)
+    getCart()[i].splice (item)
 }
 }
 //   else {
