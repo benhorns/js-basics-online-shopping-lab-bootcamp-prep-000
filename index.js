@@ -57,7 +57,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if (cardNumber === nil){
+  if (cardNumber === false){
     return "Sorry, we don't haven a credit card on file for you."
   }
   // write your code here
